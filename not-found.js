@@ -1,6 +1,6 @@
-import React from 'react'
-
-import { Helmet } from 'react-helmet'
+// Hier die URLs für den Browser anpassen
+import React from 'https://esm.sh/react'
+import { Helmet } from 'https://esm.sh/react-helmet'
 
 import './not-found.css'
 
