@@ -8,10 +8,11 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import Home from './views/home'
-import Kontakt from './views/kontakt'
-import Gedichte from './views/gedichte'
-import NotFound from './views/not-found'
+// Korrigierte Pfade basierend auf deinem Screenshot:
+import Home from './src/views/home'
+import Kontakt from './src/views/kontakt'
+import Gedichte from './src/views/gedichte'
+import NotFound from './src/views/not-found'
 
 const App = () => {
   return (
@@ -20,8 +21,8 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={Kontakt} exact path="/kontakt" />
         <Route component={Gedichte} exact path="/gedichte" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
+        <Route component={NotFound} path="/404" />
+        <Redirect to="/" />
       </Switch>
     </Router>
   )
