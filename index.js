@@ -1,4 +1,3 @@
-// Wir laden React direkt über eine URL, damit der Browser es findet
 import React from 'https://esm.sh/react'
 import ReactDOM from 'https://esm.sh/react-dom'
 import {
@@ -8,9 +7,6 @@ import {
   Redirect,
 } from 'https://esm.sh/react-router-dom'
 
-import './style.css'
-
-// Deine Dateien (Pfade mit Endung .js sind wichtig!)
 import Home from './home.js'
 import Kontakt from './kontakt.js'
 import Gedichte from './gedichte.js'
