@@ -422,11 +422,12 @@
   margin-left: var(--dl-layout-space-twounits);
 }
  
-.kontakt-text38 {
+.kontakt-link2 {
   margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
 }
  
-.kontakt-link2 {
+.kontakt-link3 {
   display: contents;
 }
  
@@ -454,7 +455,7 @@
   margin-right: 4px;
 }
  
-.kontakt-text39 {
+.kontakt-text38 {
   color: white;
   font-size: 13px;
   font-style: normal;

@@ -197,9 +197,16 @@ const Home = (props) => {
           oliver.gwbasse@gmail.com
         </a>
         <span className="home-text7">Zürich</span>
-        <span className="home-text8">Datenschutzerklärung </span>
+        <a
+          href="https://gilwalter.com/Datenschutzerklärung.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="home-link25"
+        >
+          Datenschutzerklärung 
+        </a>
       </div>
-      <a href="https://play.teleporthq.io/signup" className="home-link25">
+      <a href="https://play.teleporthq.io/signup" className="home-link26">
         <div aria-label="Sign up to TeleportHQ" className="home-container6">
           <svg
             width="24"
@@ -222,7 +229,7 @@ const Home = (props) => {
               fill="#2874DE"
             ></path>
           </svg>
-          <span className="home-text9">Built in TeleportHQ</span>
+          <span className="home-text8">Built in TeleportHQ</span>
         </div>
       </a>
     </div>

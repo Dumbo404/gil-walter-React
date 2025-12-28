@@ -237,11 +237,12 @@
   margin-left: var(--dl-layout-space-twounits);
 }
  
-.home-text8 {
+.home-link25 {
   margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
 }
  
-.home-link25 {
+.home-link26 {
   display: contents;
 }
  
@@ -269,7 +270,7 @@
   margin-right: 4px;
 }
  
-.home-text9 {
+.home-text8 {
   color: white;
   font-size: 13px;
   font-style: normal;

@@ -204,9 +204,16 @@ const Kontakt = (props) => {
           oliver.gwbasse@gmail.com
         </a>
         <span className="kontakt-text37">Zürich</span>
-        <span className="kontakt-text38">Datenschutzerklärung</span>
+        <a
+          href="https://gilwalter.com/Datenschutzerklärung.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="kontakt-link2"
+        >
+          Datenschutzerklärung
+        </a>
       </div>
-      <a href="https://play.teleporthq.io/signup" className="kontakt-link2">
+      <a href="https://play.teleporthq.io/signup" className="kontakt-link3">
         <div aria-label="Sign up to TeleportHQ" className="kontakt-container24">
           <svg
             width="24"
@@ -229,7 +236,7 @@ const Kontakt = (props) => {
               fill="#2874DE"
             ></path>
           </svg>
-          <span className="kontakt-text39">Built in TeleportHQ</span>
+          <span className="kontakt-text38">Built in TeleportHQ</span>
         </div>
       </a>
     </div>

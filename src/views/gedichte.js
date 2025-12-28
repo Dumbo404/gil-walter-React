@@ -40,7 +40,7 @@ const Gedichte = (props) => {
         </div>
         <div className="gedichte-container5">
           <a
-            href="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/41b8adf8-8705-4fa4-bedd-28a885c6ff8a/2cdb8128-5fe7-46c8-9ee4-3c80ed9b5c99"
+            href="https://gilwalter.com/Gedichte_2_Gil_Walter.pdf"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -61,10 +61,17 @@ const Gedichte = (props) => {
             oliver.gwbasse@gmail.com
           </a>
           <span className="gedichte-text2">Zürich</span>
-          <span>Datenschutzerklärung</span>
+          <a
+            href="https://gilwalter.com/Datenschutzerklärung.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="gedichte-link4"
+          >
+            Datenschutzerklärung
+          </a>
         </div>
       </div>
-      <a href="https://play.teleporthq.io/signup" className="gedichte-link4">
+      <a href="https://play.teleporthq.io/signup" className="gedichte-link5">
         <div aria-label="Sign up to TeleportHQ" className="gedichte-container7">
           <svg
             width="24"
@@ -87,7 +94,7 @@ const Gedichte = (props) => {
               fill="#2874DE"
             ></path>
           </svg>
-          <span className="gedichte-text4">Built in TeleportHQ</span>
+          <span className="gedichte-text3">Built in TeleportHQ</span>
         </div>
       </a>
     </div>

@@ -114,6 +114,10 @@
 }
  
 .gedichte-link4 {
+  text-decoration: none;
+}
+ 
+.gedichte-link5 {
   display: contents;
 }
  
@@ -141,7 +145,7 @@
   margin-right: 4px;
 }
  
-.gedichte-text4 {
+.gedichte-text3 {
   color: white;
   font-size: 13px;
   font-style: normal;
