@@ -1,19 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+// Wir laden React direkt über eine URL, damit der Browser es findet
+import React from 'https://esm.sh/react'
+import ReactDOM from 'https://esm.sh/react-dom'
 import {
   HashRouter as Router,
   Route,
   Switch,
   Redirect,
-} from 'react-router-dom'
+} from 'https://esm.sh/react-router-dom'
 
 import './style.css'
 
-// Pfade angepasst: "src/views/" entfernt, da alles im Hauptverzeichnis liegt
-import Home from './home'
-import Kontakt from './kontakt'
-import Gedichte from './gedichte'
-import NotFound from './not-found'
+// Deine Dateien (Pfade mit Endung .js sind wichtig!)
+import Home from './home.js'
+import Kontakt from './kontakt.js'
+import Gedichte from './gedichte.js'
+import NotFound from './not-found.js'
 
 const App = () => {
   return (
