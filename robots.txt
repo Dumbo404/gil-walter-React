@@ -1,7 +1,0 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-User-agent: *
-Allow: /
-
-Sitemap: https://trim-tepid-oyster-w9bx29.teleporthq.app/sitemap.xml
